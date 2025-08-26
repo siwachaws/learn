@@ -2,4 +2,5 @@ select emp_id,first_name
 from employees e
 inner join orders o ON e.emp_id=o.emp_id
 where emp_id=100
-and region = 'India';
+and region = 'India'
+and date = '26-08-2025';
